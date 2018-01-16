@@ -48,6 +48,12 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.spotify/docker-maven-plugin -->
+		<dependency>
+   			<groupId>com.spotify</groupId>
+    			<artifactId>docker-maven-plugin</artifactId>
+    			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 	
 	<dependencyManagement>
@@ -68,6 +74,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
 		</plugins>
 	</build>
 
